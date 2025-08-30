@@ -9,17 +9,6 @@ body {
     color: rgb(231, 170, 91);
 }
 
-.navbar {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: left;
-    height: 100px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-}
-
 .hero {
     display: grid;
     height:100vh;
@@ -32,10 +21,11 @@ body {
     text-align: center;
     color: white;
     padding: 100px 20px;
-    background-image: url(/BOOTSTRAP/library.jpg);
+    background-image: url(/library.jpg);
     background-size: cover;
     background-position: center;
     grid-template-columns: 1fr;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.603);
 }
 
 .hero button {
@@ -47,12 +37,6 @@ body {
     max-width: 600px;
     align-items: center;
     padding: 30;
-}
-footer {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0px auto;
 }
 
 .col-md-4 {
