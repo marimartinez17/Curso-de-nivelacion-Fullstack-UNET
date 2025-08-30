@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: black;
+    color: rgb(231, 170, 91);
+}
+
+.navbar {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    height: 100px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.hero {
+    display: grid;
+    height:100vh;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-size-adjust: larger;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-image: url(/BOOTSTRAP/library.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: 1fr;
+}
+
+.hero button {
+    background-color: rgb(224, 108, 0);
+    border: none;
+}
+
+.hero-content {
+    max-width: 600px;
+    align-items: center;
+    padding: 30;
+}
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.col-md-4 {
+    align-items: center;
+    justify-content: center;
+
+}
