@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3.1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>El Rincón del Libro</h1>
+    </header>
+
+    <h2>Catálogo</h2>
+    <section class="gallery">
+        <div class="card"> 
+            <img src="https://i.pinimg.com/736x/30/d4/42/30d4421bdd8cd7881b2e084023b1d3ab.jpg" alt="Portada de 'Cien años de soledad'">
+            <h3>Cien años de soledad</h3>
+            <p>Autor: Gabriel García Márquez</p>
+            <p>Precio: $20.00</p>
+        </div>
+
+        <div class="card"> 
+            <img src="https://i.pinimg.com/736x/e6/40/c6/e640c6204075b8538e26e8e4f1d90763.jpg" alt="Portada de 'El retrato de Dorian Gray'">
+            <div class="container">
+                <h3>El retrato de Dorian Gray</h3>
+                <p>Autor: Oscar Wilde</p>
+                <p>Precio: $20.00</p>
+            </div>
+        </div>
+
+        <div class="card"> 
+            <img src="https://i.pinimg.com/736x/27/31/c5/2731c535b6eb26a8e86067b35bc6b650.jpg" alt="Portada de 'La vegetariana'">
+            <div class="container">
+                <h3>La vegetariana</h3>
+                <p>Autora: Han Kang</p>
+                <p>Precio: $20.00</p>
+            </div>
+        </div>
+
+        <div class="card"> 
+            <img src="https://i.pinimg.com/736x/30/e1/8c/30e18cde96fb5354fed0be355045043b.jpg" alt="Portada de '1984'">
+            <div class="container">
+                <h3>1984</h3>
+                <p>Autor: George Orwell</p>
+                <p>Precio: $20.00</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/6d/bc/cc/6dbcccf65e20a2ce95a82988e864ad88.jpg" alt="Portada de 'Crimen y Castigo'">
+            <div class="container">
+                <h3>Crimen y Castigo</h3>
+                <p>Autor: Fiódor Dostoyevski</p>
+                <p>Precio: $20.00</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/92/64/a4/9264a4efe574d462d6dccc9f7ae8951e.jpg" alt="Portada de 'Orgullo y prejuicio'">
+            <div class="container">
+                <h3>Orgullo y prejuicio</h3>
+                <p>Autora: Jane Austen</p>
+                <p>Precio: $20.00</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
